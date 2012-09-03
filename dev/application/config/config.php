@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://bytarna.se/dev/';
+$config['base_url']	= 'http://bytarna.se/dev';
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ $config['base_url']	= 'http://bytarna.se/dev/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = "";
 
 /*
 |--------------------------------------------------------------------------
@@ -224,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = '89865814793585329965485475';
 
 /*
 |--------------------------------------------------------------------------
