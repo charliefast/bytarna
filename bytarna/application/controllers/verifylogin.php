@@ -5,7 +5,7 @@ class VerifyLogin extends CI_Controller {
  function __construct()
  {
    parent::__construct();
-   $this->load->model('user','',TRUE);
+   $this->load->model('user_model','',TRUE);
  }
 
  function index()
@@ -13,10 +13,12 @@ class VerifyLogin extends CI_Controller {
    //This method will have the credentials validation
    $this->load->library('form_validation');
 
-   $this->form_validation->set_rules('username', 'Username', 'trim|required|xss_clean');
-   $this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean|callback_check_database');
+   $this->lang->load('form_validation', 'swedish');
 
-   if($this->form_validation->run() == FALSE)
+  // $this->form_validation->set_rules('username', 'Username', 'trim|required|xss_clean');
+  // $this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean|callback_check_database');
+
+   if($this->form_validation->run('login') == FALSE)
    {
      //Field validation failed.&nbsp; User redirected to login page
      $this->load->view('login_view');
@@ -35,7 +37,7 @@ class VerifyLogin extends CI_Controller {
    $username = $this->input->post('username');
 
    //query the database
-   $result = $this->user->login($username, $password);
+   $result = $this->user_model->login($username, $password);
 
    if($result)
    {

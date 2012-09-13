@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    <title>Registrering</title>
  </head>
  <body>
@@ -25,8 +26,8 @@
 
 <p>
   <label for="city">Stad</label>
-  <?php echo form_error('stad'); ?>
-  <input id="city" type="text" name="city" maxlength="255" value="<?php echo set_value('stad'); ?>"  />
+  <?php echo form_error('city'); ?>
+  <input id="city" type="text" name="city" maxlength="255" value="<?php echo set_value('city'); ?>"  />
 </p>
 
 <p>
@@ -62,9 +63,20 @@
 </p>
 
 <p>
+        <label for="emailconf">Upprepa email <span class="required">*</span></label>
+        <?php echo form_error('emailconf'); ?>
+        <input id="emailconf" type="text" name="emailconf"  value="<?php echo set_value('emailconf'); ?>"  />
+</p>
+
+<p>
         <label for="password">Lösenord <span class="required">*</span></label>
         <?php echo form_error('password'); ?>
         <input id="password" type="password" name="password" maxlength="255" value="<?php echo set_value('password'); ?>"  />
+</p>
+<p>
+        <label for="passconf">Upprepa lösenord <span class="required">*</span></label>
+        <?php echo form_error('passconf'); ?>
+        <input id="passconf" type="password" name="passconf" maxlength="255" value="<?php echo set_value('passconf'); ?>"  />
 </p>
 
 
