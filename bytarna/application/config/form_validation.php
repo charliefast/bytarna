@@ -8,7 +8,12 @@ $config = array(
                                                        'trim',
                                                        'xss_clean',
                                                        'max_length[255]',
-                                                       'callback_user_exists'
+                                                       'min_length[8]'
+                                          ),
+                                    array(
+                                            'field' => 'username',
+                                            'label' => 'Användarnamn',
+                                            'rules' =>'callback_user_not_exist'
                                           ),
                                      array(
                                             'field' => 'firstname',
@@ -67,6 +72,11 @@ $config = array(
                                                        'valid_email'
                                          ),
                                     array(
+                                            'field' => 'email',
+                                            'label' => 'Email',
+                                            'rules' => 'callback_email_not_exist'
+                                         ),
+                                    array(
                                             'field' => 'emailconf',
                                             'label' => 'Upprepa email',
                                             'rules' => 'required',
@@ -110,6 +120,11 @@ $config = array(
                                                        'trim',
                                                        'xss_clean',
                                                        'callback_check_database'
+                                         ),
+                                    array(
+                                            'field' => 'password',
+                                            'label' => 'Lösenord',
+                                            'rules' => 'callback_check_database'
                                          ),
                                     )                      
                );

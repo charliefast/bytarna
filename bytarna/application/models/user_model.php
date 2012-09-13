@@ -21,7 +21,7 @@ Class User_model extends CI_Model
      return false;
    }
  }
- function newUser($form_data)
+ function register_user($form_data)
   {
     $this->db->insert('members', $form_data);
     
@@ -34,6 +34,35 @@ Class User_model extends CI_Model
 
   }
    
+  function check_exists_username($username){
+
+    $query = "SELECT username FROM members WHERE username = ?";
+
+    $result = $this -> db -> query($query,$username);
+
+    if ($result -> num_rows() > 0 )
+    {
+      //username exists
+      return TRUE;
+    }
+    //username doesn't exist
+    return FALSE;
+  }
+  function check_exists_email($email){
+
+    $query = "SELECT email FROM members WHERE email = ?";
+
+    $result = $this -> db -> query($query,$email);
+
+    if ($result -> num_rows() > 0 )
+    {
+      //email exists
+      return TRUE;
+    }
+    //email doesn't exist
+    return FALSE;
+  }
+
 
 }
 

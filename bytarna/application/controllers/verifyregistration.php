@@ -40,7 +40,7 @@ class VerifyRegistration extends CI_Controller {
 					
 			// run insert model to write data to db
 		
-			if ($this->user_model->newUser($form_data) == TRUE) // the information has therefore been successfully saved in the db
+			if ($this->user_model->register_user($form_data) == TRUE) // the information has therefore been successfully saved in the db
 			{
 				$this->load->view('login_view');
 			}
@@ -51,15 +51,26 @@ class VerifyRegistration extends CI_Controller {
 			}
 		}
 	}
-    function user_exists($username){
-      $query = $this->db->query('SELECT username FROM members WHERE username = ' . "'" . $username . "'");
-      if ($query -> num_rows() == 0);
-      {
-        return TRUE;
-      }
-      return FALSE;
+    function user_not_exist($username){
+      $this -> form_validation -> set_message('user_not_exist', 'Användarnamnet är upptaget');
 
-  }
+      if ($this->user_model->check_exists_username($username))
+      {
+        return FALSE;
+      }
+      return TRUE;
+
+    }
+    function email_not_exist($email){
+      $this -> form_validation -> set_message('email_not_exist', 'Det finns redan ett konto registrerat på den här emailadressen.');
+
+      if ($this->user_model->check_exists_email($email))
+      {
+        return FALSE;
+      }
+      return TRUE;
+
+    }
 
 }
 ?>
