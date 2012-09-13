@@ -41,7 +41,7 @@
 $route['default_controller'] = "login";
 $route['404_override'] = 'errors/page_missing';
 
-$route['register'] = "registerform";
+$route['register'] = "verifyregistration";
 
 
 /* End of file routes.php */

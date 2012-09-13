@@ -21,26 +21,34 @@ Class User extends CI_Model
      return false;
    }
  }
-}
-      /** 
-       * function SaveForm()
-       *
-       * insert form data
-       * @param $form_data - array
-       * @return Bool - TRUE or FALSE
-       */
-
-  function SaveForm($form_data)
+ function newUser($form_data)
   {
-    $this -> db -> insert('members', $form_data);
+    if ($this->saveForm($form_data));
+    {
+      return TRUE;
+    }
     
-    if ($this -> db-> affected_rows() == '1')
+    return FALSE;
+
+  }
+  function userExists($username){
+   $query = $this->db->query('SELECT username FROM members WHERE username == $username');
+
+  }
+   function saveForm($form_data)
+  {
+    $this->db->insert('members', $form_data);
+    
+    if ($this->db->affected_rows() == '1')
     {
       return TRUE;
     }
     
     return FALSE;
   }
+
+}
+
 
 
 //insert into members (username, password) values ('bob', SHA1('shru7hTTlssupersecret'));

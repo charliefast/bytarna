@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'bytarna-160593.mysql.binero.se';
-$db['default']['username'] = '160593_zs29487';
-$db['default']['password'] = '2xNMikL8';
-$db['default']['database'] = 'bytarna';
+$db['default']['username'] = '160593_id31529';
+$db['default']['password'] = 'KHrt5gTv';
+$db['default']['database'] = '160593-bytarna';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
@@ -63,7 +63,7 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-
+$db['default']['port'] = 3306;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
