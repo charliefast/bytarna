@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 class Blog extends CI_Controller {
 
@@ -7,3 +8,14 @@ class Blog extends CI_Controller {
 	}
 }
 ?>
+=======
+<?php
+class Blog extends CI_Controller {
+
+	public function index()
+	{
+		echo 'Hello World!';
+	}
+}
+?>
+>>>>>>> origin/localhost

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
 
 DEBUG - 2012-09-05 08:07:47 --> Config Class Initialized
@@ -108,6 +109,118 @@ DEBUG - 2012-09-05 13:37:42 --> Database Driver Class Initialized
 ERROR - 2012-09-05 13:37:42 --> Severity: Warning  --> mysql_pconnect() has been disabled for security reasons /storage/content/93/160593/bytarna.se/public_html/dev/system/database/drivers/mysql/mysql_driver.php 91
 ERROR - 2012-09-05 13:37:42 --> Unable to connect to the database
 DEBUG - 2012-09-05 13:37:42 --> Language file loaded: language/english/db_lang.php
+=======
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+DEBUG - 2012-09-05 08:07:47 --> Config Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> Hooks Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> Utf8 Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> UTF-8 Support Enabled
+DEBUG - 2012-09-05 08:07:47 --> URI Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> Router Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> No URI present. Default controller set.
+DEBUG - 2012-09-05 08:07:47 --> Output Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> Security Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> Input Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-09-05 08:07:47 --> Language Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> Loader Class Initialized
+DEBUG - 2012-09-05 08:07:47 --> Helper loaded: url_helper
+DEBUG - 2012-09-05 08:07:47 --> Database Driver Class Initialized
+ERROR - 2012-09-05 08:07:47 --> Severity: Warning  --> mysql_pconnect() has been disabled for security reasons /storage/content/93/160593/bytarna.se/public_html/dev/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2012-09-05 08:07:47 --> Unable to connect to the database
+DEBUG - 2012-09-05 08:07:47 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2012-09-05 08:07:50 --> Config Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> Hooks Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> Utf8 Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> UTF-8 Support Enabled
+DEBUG - 2012-09-05 08:07:50 --> URI Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> Router Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> No URI present. Default controller set.
+DEBUG - 2012-09-05 08:07:50 --> Output Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> Security Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> Input Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-09-05 08:07:50 --> Language Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> Loader Class Initialized
+DEBUG - 2012-09-05 08:07:50 --> Helper loaded: url_helper
+DEBUG - 2012-09-05 08:07:50 --> Database Driver Class Initialized
+ERROR - 2012-09-05 08:07:50 --> Severity: Warning  --> mysql_pconnect() has been disabled for security reasons /storage/content/93/160593/bytarna.se/public_html/dev/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2012-09-05 08:07:50 --> Unable to connect to the database
+DEBUG - 2012-09-05 08:07:50 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2012-09-05 08:58:14 --> Config Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> Hooks Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> Utf8 Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> UTF-8 Support Enabled
+DEBUG - 2012-09-05 08:58:14 --> URI Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> Router Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> No URI present. Default controller set.
+DEBUG - 2012-09-05 08:58:14 --> Output Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> Security Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> Input Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-09-05 08:58:14 --> Language Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> Loader Class Initialized
+DEBUG - 2012-09-05 08:58:14 --> Helper loaded: url_helper
+DEBUG - 2012-09-05 08:58:14 --> Database Driver Class Initialized
+ERROR - 2012-09-05 08:58:14 --> Severity: Warning  --> mysql_pconnect() has been disabled for security reasons /storage/content/93/160593/bytarna.se/public_html/dev/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2012-09-05 08:58:14 --> Unable to connect to the database
+DEBUG - 2012-09-05 08:58:14 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2012-09-05 09:53:56 --> Config Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> Hooks Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> Utf8 Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> UTF-8 Support Enabled
+DEBUG - 2012-09-05 09:53:57 --> URI Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> Router Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> No URI present. Default controller set.
+DEBUG - 2012-09-05 09:53:57 --> Output Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> Security Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> Input Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-09-05 09:53:57 --> Language Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> Loader Class Initialized
+DEBUG - 2012-09-05 09:53:57 --> Helper loaded: url_helper
+DEBUG - 2012-09-05 09:53:57 --> Database Driver Class Initialized
+ERROR - 2012-09-05 09:53:57 --> Severity: Warning  --> mysql_pconnect() has been disabled for security reasons /storage/content/93/160593/bytarna.se/public_html/dev/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2012-09-05 09:53:57 --> Unable to connect to the database
+DEBUG - 2012-09-05 09:53:57 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2012-09-05 10:41:09 --> Config Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> Hooks Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> Utf8 Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> UTF-8 Support Enabled
+DEBUG - 2012-09-05 10:41:09 --> URI Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> Router Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> No URI present. Default controller set.
+DEBUG - 2012-09-05 10:41:09 --> Output Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> Security Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> Input Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-09-05 10:41:09 --> Language Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> Loader Class Initialized
+DEBUG - 2012-09-05 10:41:09 --> Helper loaded: url_helper
+DEBUG - 2012-09-05 10:41:09 --> Database Driver Class Initialized
+ERROR - 2012-09-05 10:41:09 --> Severity: Warning  --> mysql_pconnect() has been disabled for security reasons /storage/content/93/160593/bytarna.se/public_html/dev/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2012-09-05 10:41:09 --> Unable to connect to the database
+DEBUG - 2012-09-05 10:41:09 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2012-09-05 13:37:41 --> Config Class Initialized
+DEBUG - 2012-09-05 13:37:41 --> Hooks Class Initialized
+DEBUG - 2012-09-05 13:37:41 --> Utf8 Class Initialized
+DEBUG - 2012-09-05 13:37:41 --> UTF-8 Support Enabled
+DEBUG - 2012-09-05 13:37:41 --> URI Class Initialized
+DEBUG - 2012-09-05 13:37:41 --> Router Class Initialized
+DEBUG - 2012-09-05 13:37:41 --> No URI present. Default controller set.
+DEBUG - 2012-09-05 13:37:42 --> Output Class Initialized
+DEBUG - 2012-09-05 13:37:42 --> Security Class Initialized
+DEBUG - 2012-09-05 13:37:42 --> Input Class Initialized
+DEBUG - 2012-09-05 13:37:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-09-05 13:37:42 --> Language Class Initialized
+DEBUG - 2012-09-05 13:37:42 --> Loader Class Initialized
+DEBUG - 2012-09-05 13:37:42 --> Helper loaded: url_helper
+DEBUG - 2012-09-05 13:37:42 --> Database Driver Class Initialized
+ERROR - 2012-09-05 13:37:42 --> Severity: Warning  --> mysql_pconnect() has been disabled for security reasons /storage/content/93/160593/bytarna.se/public_html/dev/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2012-09-05 13:37:42 --> Unable to connect to the database
+DEBUG - 2012-09-05 13:37:42 --> Language file loaded: language/english/db_lang.php
+>>>>>>> origin/localhost
 DEBUG - 2012-09-05 11:47:42 --> Config Class Initialized
 DEBUG - 2012-09-05 11:47:42 --> Hooks Class Initialized
 DEBUG - 2012-09-05 11:47:42 --> Utf8 Class Initialized
@@ -139,12 +252,20 @@ DEBUG - 2012-09-05 11:47:47 --> Loader Class Initialized
 DEBUG - 2012-09-05 11:47:47 --> Helper loaded: url_helper
 DEBUG - 2012-09-05 11:47:47 --> Database Driver Class Initialized
 ERROR - 2012-09-05 11:48:03 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: [2002] Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade (trying to connect via tcp://bytarna-160593.mysql.binero.se:3306) C:\wamp\www\bytarna\system\database\drivers\mysql\mysql_driver.php 91
+<<<<<<< HEAD
 ERROR - 2012-09-05 11:48:03 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade anslutningen till värddatorn inte längre fungerar.
+=======
+ERROR - 2012-09-05 11:48:03 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade anslutningen till värddatorn inte längre fungerar.
+>>>>>>> origin/localhost
  C:\wamp\www\bytarna\system\database\drivers\mysql\mysql_driver.php 91
 ERROR - 2012-09-05 11:48:03 --> Unable to connect to the database
 DEBUG - 2012-09-05 11:48:03 --> Language file loaded: language/english/db_lang.php
 ERROR - 2012-09-05 11:48:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: [2002] Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade (trying to connect via tcp://bytarna-160593.mysql.binero.se:3306) C:\wamp\www\bytarna\system\database\drivers\mysql\mysql_driver.php 91
+<<<<<<< HEAD
 ERROR - 2012-09-05 11:48:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade anslutningen till värddatorn inte längre fungerar.
+=======
+ERROR - 2012-09-05 11:48:08 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade anslutningen till värddatorn inte längre fungerar.
+>>>>>>> origin/localhost
  C:\wamp\www\bytarna\system\database\drivers\mysql\mysql_driver.php 91
 ERROR - 2012-09-05 11:48:08 --> Unable to connect to the database
 DEBUG - 2012-09-05 11:48:08 --> Language file loaded: language/english/db_lang.php
@@ -164,7 +285,11 @@ DEBUG - 2012-09-05 11:48:11 --> Loader Class Initialized
 DEBUG - 2012-09-05 11:48:11 --> Helper loaded: url_helper
 DEBUG - 2012-09-05 11:48:11 --> Database Driver Class Initialized
 ERROR - 2012-09-05 11:48:32 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: [2002] Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade (trying to connect via tcp://bytarna-160593.mysql.binero.se:3306) C:\wamp\www\bytarna\system\database\drivers\mysql\mysql_driver.php 91
+<<<<<<< HEAD
 ERROR - 2012-09-05 11:48:32 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade anslutningen till värddatorn inte längre fungerar.
+=======
+ERROR - 2012-09-05 11:48:32 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade anslutningen till värddatorn inte längre fungerar.
+>>>>>>> origin/localhost
  C:\wamp\www\bytarna\system\database\drivers\mysql\mysql_driver.php 91
 ERROR - 2012-09-05 11:48:32 --> Unable to connect to the database
 DEBUG - 2012-09-05 11:48:32 --> Language file loaded: language/english/db_lang.php
