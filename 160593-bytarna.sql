@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Sep 14, 2012 at 06:58 AM
+-- Generation Time: Sep 14, 2012 at 10:06 AM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -70,24 +70,28 @@ CREATE TABLE IF NOT EXISTS `members` (
   `sign_up_date` date DEFAULT NULL,
   `last_active` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `account_type` int(11) DEFAULT '0',
+  `activation_key` varchar(255) NOT NULL,
   `email_activated` enum('0','1') DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=20 ;
 
 --
 -- Dumping data for table `members`
 --
 
-INSERT INTO `members` (`id`, `username`, `firstname`, `lastname`, `country`, `city`, `zip`, `phone`, `email`, `password`, `sign_up_date`, `last_active`, `account_type`, `email_activated`) VALUES
-(2, 'jane', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ead6c09483683d7f0e9d77331e379424bbb50073', NULL, '2012-09-06 07:51:42', 0, '0'),
-(4, 'bob', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ead6c09483683d7f0e9d77331e379424bbb50073', NULL, '2012-09-13 07:42:28', 0, '0'),
-(5, 'Barbro', 'Barbro', 'Ekholm', '', '', '', '', 'barbro@hotmail.com', 'hej', NULL, '2012-09-13 07:53:31', 0, '0'),
-(6, 'eva', 'Eva', 'Eva', '', '', '', '', 'eva@hotmail.com', 'eva', NULL, '2012-09-13 08:01:21', 0, '0'),
-(9, 'evaaa', 'Eva', 'Eva', '', '', '', '', 'evaaaa@hotmail.com', 'eva', NULL, '2012-09-13 08:04:00', 0, '0'),
-(10, 'anna', 'anna', 'anna', '', '', '', '', 'anna@hotmail.com', 'dsffds', NULL, '2012-09-13 10:12:31', 0, '0'),
-(11, 'alan', 'Arne', 'a', '', '', '', '', 'carina.mollbrink@gmail.com', '', NULL, '2012-09-13 11:32:43', 0, '0');
+INSERT INTO `members` (`id`, `username`, `firstname`, `lastname`, `country`, `city`, `zip`, `phone`, `email`, `password`, `sign_up_date`, `last_active`, `account_type`, `activation_key`, `email_activated`) VALUES
+(2, 'jane', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ead6c09483683d7f0e9d77331e379424bbb50073', NULL, '2012-09-06 07:51:42', 0, '0', '0'),
+(4, 'bob', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ead6c09483683d7f0e9d77331e379424bbb50073', NULL, '2012-09-13 07:42:28', 0, '0', '0'),
+(5, 'Barbrobäst', 'Barbro', 'Ekholm', '', '', '', '', 'barbro@hotmail.com', 'hej', NULL, '2012-09-14 07:08:58', 0, '0', '0'),
+(6, 'eva', 'Eva', 'Eva', '', '', '', '', 'eva@hotmail.com', 'eva', NULL, '2012-09-13 08:01:21', 0, '0', '0'),
+(9, 'evaaa', 'Eva', 'Eva', '', '', '', '', 'evaaaa@hotmail.com', 'eva', NULL, '2012-09-13 08:04:00', 0, '0', '0'),
+(10, 'anna', 'anna', 'anna', '', '', '', '', 'anna@hotmail.com', 'dsffds', NULL, '2012-09-13 10:12:31', 0, '0', '0'),
+(11, 'alan', 'Arne', 'a', '', '', '', '', 'carina.mollbrink@gmail.com', '', NULL, '2012-09-13 11:32:43', 0, '0', '0'),
+(17, 'bengan', 'bengt', 'bengtsson', '', '', '', '', 'bengt@gmail.com', 'c031ff13c9cfdb651a7246af7ff646e861c71723', NULL, '2012-09-14 09:30:23', 0, 'RaMcTsm14Yg6PFlkYZjQrrNcXtXr2AD5ipOAAuijaP4BnT0WEs', '0'),
+(18, 'Amaagaaad', 'alf', 'göran', '', '', '', '', 'alf@hotmail.com', 'f0d8809064fc0a1d86ddff7b2b27334cbc894e5a', NULL, '2012-09-14 09:31:33', 0, 'tbAGO25NPaWqCbYjHnhigIKFqGofUGpjzq1y7Hlte7UAZj9qsX', '0'),
+(19, 'jannes', 'janne', 'janson', '', '', '', '', 'janne@live.com', 'ead6c09483683d7f0e9d77331e379424bbb50073', NULL, '2012-09-14 09:33:29', 0, 'WHS6GNvkdHBbY27OkrB8ECt1apo6mKGkTiRuDC0UMUxE5B9MTz', '0');
 
 -- --------------------------------------------------------
 
