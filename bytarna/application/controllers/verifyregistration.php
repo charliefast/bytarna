@@ -51,6 +51,7 @@ class VerifyRegistration extends CI_Controller {
 			}
 		}
 	}
+
     function user_not_exist($username){
       $this -> form_validation -> set_message('user_not_exist', 'Användarnamnet är upptaget');
 
@@ -71,6 +72,19 @@ class VerifyRegistration extends CI_Controller {
       return TRUE;
 
     }
-
+    //use this function when using ajax validation. use "echo site_url('index.php/verifyregistration/ajax_check');" for example and type must be 'post'.
+    function ajax_check() {
+      if($this->input->post('ajax') == '1') {
+        if($this->form_validation->run('signup') == FALSE){
+        //Field validation failed.
+         echo validation_errors();
+        }
+        else
+        {
+        //Go to loginpage
+        echo 'registration successful';
+      }
+    }
+  }
 }
 ?>
