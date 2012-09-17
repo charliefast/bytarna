@@ -48,6 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
+/*$db['default']['hostname'] = 'bytarna-160593.mysql.binero.se';
+$db['default']['username'] = '160593_id31529';
+$db['default']['password'] = 'KHrt5gTv'; */
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
 $db['default']['password'] = 'root';

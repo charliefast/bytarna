@@ -4,7 +4,7 @@ $config = array(
                                     array(
                                             'field' => 'username',
                                             'label' => 'Användarnamn',
-                                            'rules' => 'required|trim|xss_clean|max_length[255]|min_length[8]|callback_user_not_exist' 
+                                            'rules' => 'required|trim|xss_clean|max_length[255]|min_length[6]|callback_user_not_exist' 
                                           ),
                                      array(
                                             'field' => 'firstname',
